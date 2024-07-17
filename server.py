@@ -23,7 +23,7 @@ while True:
     client_socket, address = server_socket.accept()
 
     # Console logging
-    print(f"Recieved connection from ${address}")
+    print(f"Recieved connection from {address}")
 
     # Welcome message upon connecting to the TCP server
     message = "Hello! Thank you for connecting to the server" + "\r\n"
